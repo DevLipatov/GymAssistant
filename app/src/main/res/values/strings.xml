@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">GymAssistant</string>
+    <string name="name">Name:</string>
+    <string name="approach_count">Approach count:</string>
+    <string name="rest_time">Rest time:</string>
+    <string name="comment">Comment:</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="linearly">Linearly</string>
+    <string name="weight_selection_method">Weight selection method:</string>
+    <string name="add_exercise">ADD EXERCISE</string>
 </resources>
