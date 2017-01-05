@@ -20,4 +20,7 @@ public class ExerciseList implements BaseColumns {
 
     @dbString
     public static final String COMMENT = "comment";
+
+    @dbString
+    public static final String NAME_CODE = "name_code";
 }

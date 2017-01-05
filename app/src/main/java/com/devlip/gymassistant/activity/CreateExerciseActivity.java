@@ -74,6 +74,7 @@ public class CreateExerciseActivity extends AppCompatActivity {
             contentValues.put(ExerciseList.TYPE, rgroupWeight.getCheckedRadioButtonId());
             contentValues.put(ExerciseList.APPROACH_COUNT, Integer.valueOf(editApproachCount.getText().toString()));
             contentValues.put(ExerciseList.COMMENT, editComment.getText().toString());
+            contentValues.put(ExerciseList.NAME_CODE, editExerciseName.getText().toString().replaceAll("\\s+",""));
 
             new Thread(new Runnable() {
                 @Override

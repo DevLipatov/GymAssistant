@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_height="wrap_content"
+            android:text="Previous:"
+            app:layout_widthPercent="20%" />
+
+        <TextView
+            android:id="@+id/txtWeightPrevious"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txt1"
+            android:text="-----"
+            android:textAlignment="center"
+            app:layout_widthPercent="40%" />
+
+        <TextView
+            android:id="@+id/txtRepeatPrevious"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txtWeightPrevious"
+            android:text="-----"
+            android:textAlignment="center"
+            app:layout_widthPercent="40%" />
+
+    </android.support.percent.PercentRelativeLayout>
+
+    <android.support.percent.PercentRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_height="wrap_content"
+            android:text="Current:"
+            app:layout_widthPercent="20%" />
+
+        <EditText
+            android:id="@+id/editTextRepeat"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/txt2"
+            android:textAlignment="center"
+            app:layout_widthPercent="40%" />
+
+        <EditText
+            android:id="@+id/editTextWeight"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/editTextRepeat"
+            android:textAlignment="center"
+            app:layout_widthPercent="40%" />
+
+    </android.support.percent.PercentRelativeLayout>
+</LinearLayout>

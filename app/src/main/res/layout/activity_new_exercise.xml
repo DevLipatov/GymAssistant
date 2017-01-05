@@ -11,18 +11,27 @@
         android:orientation="horizontal">
 
         <Spinner
+            android:id="@+id/spinnerExercise"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_weight="1"
-            android:id="@+id/spinnerExercise"/>
+            android:layout_weight="1" />
 
         <Button
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_weight="0"
             android:background="@mipmap/ic_launcher"
-            android:onClick="onCreateExercise"/>
+            android:onClick="onCreateExercise" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearApproaches"
+        android:orientation="vertical"
+        android:layout_below="@+id/groupExerciseName">
 
     </LinearLayout>
 

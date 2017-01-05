@@ -103,9 +103,9 @@ public class DbHelper extends SQLiteOpenHelper implements IDbOperations {
 
     @Override
     public void onUpgrade(final SQLiteDatabase sqLiteDatabase, final int i, final int i1) {
-        if (i < 2) {
-            sqLiteDatabase.execSQL("ALTER TABLE Stats ADD COLUMN total_fueling INTEGER DEFAULT 0");
-        }
+//        if (i < 2) {
+//            sqLiteDatabase.execSQL("ALTER TABLE Stats ADD COLUMN total_fueling INTEGER DEFAULT 0");
+//        }
     }
 
     @Override
