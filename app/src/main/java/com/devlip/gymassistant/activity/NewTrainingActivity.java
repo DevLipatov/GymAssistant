@@ -53,6 +53,7 @@ public class NewTrainingActivity extends AppCompatActivity {
 
     public void onAddExercise(View view) {
         Intent intent = new Intent(getApplicationContext(), NewExerciseActivity.class);
-        startActivity(intent);
+        //TODO move from there
+        startActivityForResult(intent, 90);
     }
 }

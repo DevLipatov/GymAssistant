@@ -96,7 +96,7 @@ public class CreateExerciseActivity extends AppCompatActivity {
 
     public void onCancelExerciseClick(View view) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage("Exit without save?");
+        builder.setMessage("Exit without saving?");
         builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {

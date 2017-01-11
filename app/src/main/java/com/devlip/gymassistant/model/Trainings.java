@@ -4,8 +4,8 @@ import android.provider.BaseColumns;
 import com.devlip.gymassistant.database.annotations.Table;
 import com.devlip.gymassistant.database.annotations.type.dbString;
 
-@Table(name = "Training")
-public class Training implements BaseColumns {
+@Table(name = "Trainings")
+public class Trainings implements BaseColumns {
 
     @dbString
     public static final String NAME = "name";
